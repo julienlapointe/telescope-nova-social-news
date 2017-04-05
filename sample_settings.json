@@ -1,6 +1,6 @@
 {
   "public": {
-    "title": "Your site title",
+    "title": "Cuckoo",
     "tagline":"Your site tagline",
 
     "logoUrl": "http://placekitten.com/250/80",
@@ -14,10 +14,9 @@
     "enableNewsletter":true,
     "autoSubscribe":false,
     "emailNotifications":true,
-    "postInterval": 20,
+    "postInterval": 10,
     "RSSLinksPointTo": "link",
-    "commentInterval": 20,
-    "maxPostsPerDay": 10,
+    "commentInterval": 10,
     "startInvitesCount": 5,
     "postsPerPage": 10,
 
@@ -35,38 +34,14 @@
   "mailUrl": "smtp://postmaster%40foo.mailgun.org:foo123@smtp.mailgun.org:587/",
   "scoreUpdateInterval": "30",
 
-  "embedlyKey":"123foo",
-  "mailChimpAPIKey": "123foo",
-  "mailChimpListId": "123foo",
+  "embedlyKey":"f05c6187c7db4c60943d73b427242694",
+  "mailChimpAPIKey": "510bf73fafd4b907f306c44073948ba6-us2",
+  "mailChimpListId": "894485",
 
-  "categories": [
-    {
-      "name": "Test Category 1",
-      "description": "The first test category",
-      "order": 4,
-      "slug": "testcat1"
-    },
-    {
-      "name": "Test Category 2",
-      "description": "The second test category",
-      "order": 7,
-      "slug": "testcat2"
-    },
-    {
-      "name": "Test Category 3",
-      "description": "The third test category",
-      "order": 10,
-      "slug": "testcat3"
-    }
-  ],
   "oAuth": {
-    "twitter": {
-      "consumerKey": "foo",
-      "secret": "bar"
-    },
     "facebook": {
-      "appId": "foo",
-      "secret": "bar"
+      "appId": "1468176383215193",
+      "secret": "716464393f8faf436a52a94c9b37f63e"
     }
   }
 }

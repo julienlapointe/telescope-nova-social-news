@@ -1,0 +1,5 @@
+Last updated:
+2017-04-04
+
+Removed from sample_settings.json (line 20):
+"maxPostsPerDay": 10,
