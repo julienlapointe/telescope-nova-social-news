@@ -19,7 +19,6 @@ nova:embedly
 nova:api
 nova:email
 nova:rss
-nova:share
 # nova:subscribe
 # nova:cloudinary
 
