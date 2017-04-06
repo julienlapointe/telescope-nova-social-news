@@ -82,7 +82,6 @@ nova:email-templates@0.27.5-nova
 nova:embedly@0.27.5-nova
 nova:events@0.27.5-nova
 nova:forms@0.27.5-nova
-nova:getting-started@0.27.5-nova
 nova:i18n-en-us@0.27.5-nova
 nova:lib@0.27.5-nova
 nova:newsletter@0.27.5-nova

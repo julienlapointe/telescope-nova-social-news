@@ -1,3 +1,10 @@
+QUESTIONS
+
+What is SyncedCron: Starting / Finishing "checkScheduledPosts" for? I see it in the Terminal.
+Which Embed.ly account do I need? Cards ($9/mo.) or API ($99/mo.)?
+
+---------------------------------------------------------------------
+
 FILES / CONCEPTS THAT I DON'T UNDERSTAND
 
 config.js: the package's main namespace and set basic config options.
