@@ -3,3 +3,11 @@ Last updated:
 
 Removed from sample_settings.json (line 20):
 "maxPostsPerDay": 10,
+
+
+I want to add:
+
+nova:forms-tags
+nova:share (doesn't exist anymore?)
+nova:debug	Provides routes and utility for debugging.
+nova:demo	A demo of how to use custom collections.

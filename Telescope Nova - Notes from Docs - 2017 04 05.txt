@@ -1,3 +1,46 @@
+FILES / CONCEPTS THAT I DON'T UNDERSTAND
+
+config.js: the package's main namespace and set basic config options.
+helpers.js: collection helpers.
+methods.js: collection methods.
+published_fields.js: specifies which collection fields should be published in which context.
+vs.
+custom_fields.js: sets custom fields on other collections.
+views.js: views used for query constructors.
+parameters.js: the collection's query constructor.
+email_routes.js: test routes for email templates.
+server/publications.js: publications.
+
+----------------------------------------
+
+CUSTOMIZABLE PACKAGES
+
+These are the packages that you might commonly need to customize or replace to tweak your app's layout, design, and behavior. You can either clone these packages and modify them directly, or extend their contents (see the Customizing Components section.), but you should not modify them directly.
+
+Name	Description
+nova:base-components	The default components that make up the Nova front-end.
+nova:base-styles	Default styles (includes Bootstrap).
+nova:base-routes	Default routes.
+nova:email-templates	Email templates.
+nova:i18n-en-us	Contains English language strings.
+
+Extra Packages
+
+These packages provide extra features but are not enabled out of the box.
+
+Name	Description
+nova:forms-tags	A component for autofilled tags.
+nova:cloudinary	Automatically upload posts thumbnails to Cloudinary.
+Debug Packages
+
+These packages are provided to help you when doing local development.
+
+Name	Description
+nova:debug	Provides routes and utility for debugging.
+nova:demo	A demo of how to use custom collections.
+
+--------------------
+
 DEPLOYMENT
 
 The recommended way to deploy Nova is by using Mup, at least v1.0.3.
