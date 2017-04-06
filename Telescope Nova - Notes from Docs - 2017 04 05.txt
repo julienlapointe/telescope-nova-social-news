@@ -97,3 +97,21 @@ Still in the same folder, to deploy your app with your settings file:
 mup --settings settings.json
 
 Production: specify the path to settings.json in the tool you use to deploy (i.e. mup deploy --settings settings.json, see below)
+
+-
+2017-04-06 @ 12:15am
+ Home@Juliens-MacBook-Pro-2016  ~/Dropbox/3. School/1. Current Education (Max. 3)/Sheridan College/Courses/5. Studio/1. Projects/2. Project #2/2. Alpha/Telescope/.deploy  master  mup init
+Created settings.json
+Created mup.js
+
+Next Steps:
+
+  Open mup.js and edit the config to meet your needs.
+  Required changes have been marked with a TODO comment.
+
+  Available options can be found in the docs at
+    https://github.com/zodern/meteor-up
+
+  Then run the command:
+    mup setup
+-
