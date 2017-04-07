@@ -5,9 +5,9 @@
 import React, { PropTypes, Component } from 'react';
 
 // create component
-export const TimeRemaining = () => (
+export const TimeRemaining = (props) => (
 	<div>
-		Hello World!
+		{props.createdAt.toString()}
 	</div>
 )
 

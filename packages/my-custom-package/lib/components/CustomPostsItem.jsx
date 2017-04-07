@@ -43,7 +43,7 @@ class CustomPostsItem extends Telescope.components.PostsItem {
           </h3>
 
           <div className="posts-item-meta">
-            <TimeRemaining />
+            <TimeRemaining key={post._id} createdAt={post.createdAt} />
             {post.user? <div className="posts-item-user"><Telescope.components.UsersAvatar user={post.user} size="small"/><Telescope.components.UsersName user={post.user}/></div> : null}
             <div className="posts-item-date"><FormattedRelative value={post.postedAt}/></div>
             <div className="posts-item-comments">
