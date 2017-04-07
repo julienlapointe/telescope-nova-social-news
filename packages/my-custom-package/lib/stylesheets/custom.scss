@@ -10,3 +10,19 @@
 .post-green{
   background-color: #D2FFD2;
 }
+
+canvas:first-child
+{
+	position: relative !important;
+	vertical-align: middle;
+	margin-right: 3px;
+	display:none;
+}
+
+canvas:last-child
+{
+	position: relative !important;
+	// margin-left: -20px;
+	vertical-align: middle;
+	margin-right: 3px;
+}

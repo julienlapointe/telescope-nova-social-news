@@ -3,7 +3,8 @@ import Posts from "meteor/nova:posts";
 import React, { PropTypes, Component } from 'react';
 import { FormattedMessage, FormattedRelative } from 'react-intl';
 import { Link } from 'react-router';
-import { TimeRemaining } from './TimeRemaining.jsx';
+// import { TimeRemaining } from './TimeRemaining.jsx';
+import ReactCountdownClock from 'react-countdown-clock';
 // import { Button } from 'react-bootstrap';
 // import moment from 'moment';
 // import { ModalTrigger } from "meteor/nova:core";
@@ -43,8 +44,11 @@ class CustomPostsItem extends Telescope.components.PostsItem {
           </h3>
 
           <div className="posts-item-meta">
-            <TimeRemaining key={post._id} postedAt={post.postedAt} />
             {post.user? <div className="posts-item-user"><Telescope.components.UsersAvatar user={post.user} size="small"/><Telescope.components.UsersName user={post.user}/></div> : null}
+            <ReactCountdownClock seconds={60}
+                     color="#000"
+                     alpha={0.9}
+                     size={20} />
             <div className="posts-item-date"><FormattedRelative value={post.postedAt}/></div>
             <div className="posts-item-comments">
               <Link to={Posts.getPageUrl(post)}>
